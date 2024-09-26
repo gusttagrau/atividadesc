@@ -16,11 +16,14 @@ printf("digite a nota 4:\n");
 
 resultado = (nota1+nota2+nota3+nota4) /4;
 if(resultado>=6){
-    printf("o aluno esta aprovado");
+    printf("o aluno esta aprovado\n");
 
 }
-else {
-    printf("o aluno esta reprovado");
+else if( resultado <=4) {
+    printf("o aluno esta reprovado\n");
+}
+else{
+    printf("o aluno esta de recuperação\n");
 }
 
     return 0;
